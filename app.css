@@ -1,0 +1,68 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.main-content {
+  border: 1px solid black;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.outer-movement-box {
+  height: calc(100% - 100px);
+  width: calc(100% - 100px);
+  position: relative;
+  margin-top: 50px;
+}
+
+.button {
+  border: 1px solid grey;
+  position: absolute;
+  background-color: grey;
+  cursor: pointer;
+  z-index: 100;
+}
+.button:hover {
+  background-color: rgb(209, 207, 207);
+}
+
+.top-button {
+  height: 50px;
+  width: 400px;
+  top: 0;
+}
+
+.bottom-button {
+  height: 50px;
+  width: 400px;
+  bottom: 0;
+}
+
+.left-button {
+  height: 400px;
+  width: 50px;
+  left: 0;
+  top: 10%;
+}
+
+.right-button {
+  height: 400px;
+  width: 50px;
+  right: 0;
+  top: 10%;
+}
+
+.sqr-box {
+  border: 1px solid magenta;
+  height: 100px;
+  width: 100px;
+  background-color: magenta;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
